@@ -1,0 +1,48 @@
+/***************************TAG SELECTORS***************************/
+
+h1 {
+    color: red;
+    font-size: 200px;
+}
+
+/* 
+img {
+    background-color: red;
+}
+ */
+
+
+/***************************Pseudo Class***************************/
+img:hover {
+    background-color: gold;
+}
+
+
+/***************************CLASS SELECTORS***************************/
+
+.bacon {
+    background-color: green;
+}
+
+.broccoli {
+    background-color: red;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+
+/***************************ID SELECTORS***************************/
+
+#heading {
+    color: blue;
+}
+
+#first-paragraph{
+    font-weight: 900;
+}
+
+
+/* Difference between ID and Class */
+/* We can have only one id for a element while we can apply same class to number of elments*/
