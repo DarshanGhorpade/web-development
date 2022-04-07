@@ -11,6 +11,10 @@ img {
 }
  */
 
+img {
+    position: relative;
+    left: 30px;
+}
 
 /***************************Pseudo Class***************************/
 img:hover {
