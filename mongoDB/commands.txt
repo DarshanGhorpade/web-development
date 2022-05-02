@@ -1,0 +1,20 @@
+   command             Use
+1) mongod              - To start mongodb server
+2) mongod              - To start mongodb shell
+3) help                - To get help
+4) show dbs            - To show database names that we have currently on system
+5) use databaseName    - To create a new database
+for eg. use shopDB
+    This will create a database for shop
+
+6) dbs                 - To get currently working database
+7) db.collectionName   - To create collection in current database
+for eg. db.products
+    This will create a collection in shopDB database
+
+8) db.collectionName.insertOne()    - To insert one document to the collection
+for eg. db.products.insertOne({_id: 1, name: "Pen", price: 1.20})
+    This will insert the given document in products collection of shopDB
+
+9) show collections     - To show collections in current database
+10)db.collectionName.find() - To show all documents inside the collection
