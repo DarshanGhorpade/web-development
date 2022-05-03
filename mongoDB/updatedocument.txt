@@ -1,0 +1,7 @@
+
+Update a document in collection
+
+for eg. db.products.updateOne({_id:1}, {$set: {stock: 32}})
+        This command will add new property to document viz., stock
+Output: { "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+

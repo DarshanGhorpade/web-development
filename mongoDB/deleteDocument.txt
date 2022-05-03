@@ -1,0 +1,6 @@
+
+Delete document from collection
+
+for eg. db.products.deleteOne({_id:2})
+        This will delete only one document with given id 2
+Output: { "acknowledged" : true, "deletedCount" : 1 }
