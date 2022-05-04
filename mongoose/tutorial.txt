@@ -1,0 +1,10 @@
+Mongoose tutorial
+
+We need to install npm package mongoose
+
+npm i mongoose
+
+
+Then to use it 
+
+const mongoose = require("mongoose");
